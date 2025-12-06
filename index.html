@@ -41,8 +41,13 @@
 
       .newday {
         background-color: black;
-        max-width: 400px;
         margin: auto;
+        max-width: 600px;
+        white-space: pre-wrap; /* Since CSS 2.1 */
+        white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
+        white-space: -pre-wrap; /* Opera 4-6 */
+        white-space: -o-pre-wrap; /* Opera 7 */
+        word-wrap: break-word; /* Internet Explorer 5.5+ */
       }
     </style>
     <script type="module" src="/src/main.ts"></script>
@@ -56,8 +61,21 @@
         ></marquee
       >
       <p>^^^^^^^^^^^^^^^</p>
-      <div id="twitch-embed" title="watch me wander perathia 24/7" ></div>
-      <p class="newday">it's a brand new day. perathia never sleeps.</p>
+      <div id="twitch-embed" title="watch me wander perathia 24/7"></div>
+      <pre class="newday">
+☆ 𝕿𝖍𝖊 𝖂𝖆𝖓𝖉𝖊𝖗𝖊𝖗'𝖘 𝕻𝖑𝖊𝖉𝖌𝖊 ☆ 
+
+I will wander day and night until the deed is done
+Until Perathia is saved and victory is won
+I will reunite the discs whose elements were spread
+across the land when Balthazar did take the disc of dead
+If you feel the call to arms its message you must heed 
+Take this pledge with Azurik and wander where it leads.
+
+COPY AND PASTE AND SEND TO YOUR FRIENDS TO TAKE THE WANDERER'S PLEDGE !!!
+             -- by malsware from the discorp</pre
+      >
+      <p></p>
       <img
         src="/maxresdefault.jpg"
         alt="azurik"

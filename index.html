@@ -46,6 +46,7 @@
         ></marquee
       >
       <p>^^^^^^^^^^^^^^^</p>
+      <div id="twitch-embed"></div>
       <img
         src="maxresdefault.jpg"
         alt="azurik"
@@ -53,5 +54,11 @@
         title="i will save perathia. this is my mission."
       />
     </main>
+    <script src="https://player.twitch.tv/js/embed/v1.js"></script>
+    <script type="text/javascript">
+      new Twitch.Player('twitch-embed', {
+        channel: 'wandererofperathia',
+      });
+    </script>
   </body>
 </html>

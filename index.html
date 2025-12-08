@@ -4,10 +4,10 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/png" href="/icon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>...</title>
+    <title>wandererofperathia</title>
     <style>
       body {
-        background-color: black;
+        background-image: url('/Azurikcover copy.jpg');
         color: white;
       }
 
@@ -16,57 +16,82 @@
         margin-top: 6rem;
       }
 
-      h1 {
-        text-shadow: red 2px 5px;
+      a,
+      pre {
+        background-color: black;
       }
 
       marquee {
-        max-width: 500px;
-        background-color: red;
+        max-width: 200px;
       }
 
-      .message {
-        margin-top: 4rem;
+      marquee > a {
+        color: azure;
       }
 
-      .staysafe {
-        text-shadow: blue 2px 2px;
+      .m > a {
+        color: orange;
       }
 
-      .newday {
-        background-color: black;
-        margin: auto;
-        max-width: 600px;
+      pre {
         white-space: pre-wrap; /* Since CSS 2.1 */
         white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
         white-space: -pre-wrap; /* Opera 4-6 */
         white-space: -o-pre-wrap; /* Opera 7 */
         word-wrap: break-word; /* Internet Explorer 5.5+ */
+        margin: auto;
+        margin-top: 5rem;
+        max-width: 600px;
       }
 
-      .m {
-        position: relative;
-        margin: auto;
-      }
-      .k {
-        color: rgba(0,0,0,0);
+      pre a,
+      pre {
+        color: indianred;
       }
     </style>
     <script type="module" src="/src/main.ts"></script>
   </head>
   <body>
     <main>
-      <div class="m">
+      <div>
+        <p>thank you for wandering together</p>
+        <marquee>
+          <a class="k" href="https://www.twitch.tv/wandererofperathia"
+            >never stop the wander ..</a
+          >
+        </marquee>
+        <div
+          id="twitch-embed"
+          title="one day parathia will rise again..."
+        ></div>
+
+        <p class="m">
+          <a href="https://www.youtube.com/watch?v=FmOEB1SSfYs">good night.</a>
+        </p>
         <img
-        src="/haveyouseenthesepeople2.gif"
-        alt="tv"
-        width="800"
-        title="have you seen these people?"
+          src="/maxresdefault2.gif"
+          alt="ashturik..."
+          title="we are one in the same......"
         />
-        <a class="k" href="https://www.twitch.tv/wandererofperathia"
-          >...</a
-        >
       </div>
+      <pre><details>
+<summary>historical versions of this page are available on the internet archive</summary>
+<a href="https://web.archive.org/web/20251206010231/https://wandererofperathia.com/">01:02:31 Dec 06, 2025</a>
+<a href="https://web.archive.org/web/20251206100100/https://wandererofperathia.com/">10:01:00 Dec 06, 2025</a>
+<a href="https://web.archive.org/web/20251206172711/https://wandererofperathia.com/">17:27:11 Dec 06, 2025</a>
+<a href="https://web.archive.org/web/20251206190658/https://wandererofperathia.com/">19:06:58 Dec 06, 2025</a>
+<a href="https://web.archive.org/web/20251207135729/https://wandererofperathia.com/">13:57:29 Dec 07, 2025</a>
+<a href="https://web.archive.org/web/20251207153854/https://wandererofperathia.com/">15:38:54 Dec 07, 2025</a>
+<a href="https://web.archive.org/web/20251207180009/https://wandererofperathia.com/">18:00:09 Dec 07, 2025</a>
+<a href="https://web.archive.org/web/20251207233436/https://wandererofperathia.com/">23:34:36 Dec 07, 2025</a>
+<a href="https://web.archive.org/web/20251208004835/https://wandererofperathia.com/">00:48:35 Dec 08, 2025</a>
+</details></pre>
     </main>
+    <script src="https://player.twitch.tv/js/embed/v1.js"></script>
+    <script type="text/javascript">
+      new Twitch.Player('twitch-embed', {
+        channel: 'wandererofperathia',
+      });
+    </script>
   </body>
 </html>

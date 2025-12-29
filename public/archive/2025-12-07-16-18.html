@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="/icon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Join The Wonderful World Of Perathia</title>
+    <style>
+      body {
+        background-image: url('/Azurikcover.jpg');
+        color: white;
+      }
+
+      main {
+        text-align: center;
+        margin-top: 6rem;
+      }
+
+      h1 {
+        text-shadow: red 2px 5px;
+      }
+
+      marquee {
+        max-width: 500px;
+        background-color: red;
+      }
+
+      a {
+        color: white;
+        text-shadow: blue 2px 5px;
+        font-size: 40px;
+      }
+
+      a:hover {
+        color: yellow;
+      }
+
+      .message {
+        margin-top: 4rem;
+      }
+
+      .staysafe {
+        text-shadow: blue 2px 2px;
+      }
+
+      .newday {
+        background-color: black;
+        margin: auto;
+        max-width: 600px;
+        white-space: pre-wrap; /* Since CSS 2.1 */
+        white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
+        white-space: -pre-wrap; /* Opera 4-6 */
+        white-space: -o-pre-wrap; /* Opera 7 */
+        word-wrap: break-word; /* Internet Explorer 5.5+ */
+      }
+    </style>
+    <script type="module" src="/src/main.ts"></script>
+  </head>
+  <body>
+    <main>
+      <h1>I wander Perathia all day and Night until I cant anyhmore</h1>
+      <marquee scrolldelay="60"
+        ><a href="https://www.twitch.tv/wandererofperathia"
+          >Join The Wonderful World Of Perathia</a
+        ></marquee
+      >
+      <p>^^^^^^^^^^^^^^^</p>
+      <div id="twitch-embed" title="watch me wander perathia 24/7"></div>
+      <p class="staysafe">it's a dangerous world out there. stay safe and take care.</p>
+      <pre class="newday">
+please do not spam 𝕿𝖍𝖊 𝖂𝖆𝖓𝖉𝖊𝖗𝖊𝖗'𝖘 𝕻𝖑𝖊𝖉𝖌𝖊 in mass...  be kind</pre
+      >
+      <img
+        src="/tog.jpg"
+        alt="trog in the tv"
+        width="200"
+        title="the brave warrior"
+      />
+      <img
+        src="/maxresdefault.jpg"
+        alt="azurik"
+        width="300"
+        title="i will save perathia. this is my mission."
+      />
+    </main>
+    <script src="https://player.twitch.tv/js/embed/v1.js"></script>
+    <script type="text/javascript">
+      new Twitch.Player('twitch-embed', {
+        channel: 'wandererofperathia',
+      });
+    </script>
+  </body>
+</html>

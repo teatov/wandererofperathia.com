@@ -28,25 +28,35 @@
       marquee > a {
         color: azure;
       }
+      marquee > a:hover {
+        color: aqua;
+      }
 
       .m > a {
         color: orange;
       }
-
-      pre {
-        white-space: pre-wrap; /* Since CSS 2.1 */
-        white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
-        white-space: -pre-wrap; /* Opera 4-6 */
-        white-space: -o-pre-wrap; /* Opera 7 */
-        word-wrap: break-word; /* Internet Explorer 5.5+ */
-        margin: auto;
-        margin-top: 5rem;
-        max-width: 600px;
+      .m > a:hover {
+        color: khaki;
       }
 
-      pre a,
-      pre {
+      details {
+        font-family: monospace;
+        margin: 5rem auto;
+        max-width: 600px;
+        background-color: black;
+        text-align: left;
+      }
+
+      summary {
+        text-decoration: underline;
+        cursor: pointer;
+      }
+
+      details a {
         color: indianred;
+      }
+      details a:hover {
+        color: darksalmon;
       }
     </style>
     <script type="module" src="/src/main.ts"></script>
@@ -62,7 +72,7 @@
         </marquee>
         <div
           id="twitch-embed"
-          title="one day parathia will rise again..."
+          title="one day perathia will rise again..."
         ></div>
 
         <p class="m">
@@ -74,18 +84,85 @@
           title="we are one in the same......"
         />
       </div>
-      <pre><details>
-<summary>historical versions of this page are available on the internet archive</summary>
-<a href="https://web.archive.org/web/20251206010231/https://wandererofperathia.com/">01:02:31 Dec 06, 2025</a>
-<a href="https://web.archive.org/web/20251206100100/https://wandererofperathia.com/">10:01:00 Dec 06, 2025</a>
-<a href="https://web.archive.org/web/20251206172711/https://wandererofperathia.com/">17:27:11 Dec 06, 2025</a>
-<a href="https://web.archive.org/web/20251206190658/https://wandererofperathia.com/">19:06:58 Dec 06, 2025</a>
-<a href="https://web.archive.org/web/20251207135729/https://wandererofperathia.com/">13:57:29 Dec 07, 2025</a>
-<a href="https://web.archive.org/web/20251207153854/https://wandererofperathia.com/">15:38:54 Dec 07, 2025</a>
-<a href="https://web.archive.org/web/20251207180009/https://wandererofperathia.com/">18:00:09 Dec 07, 2025</a>
-<a href="https://web.archive.org/web/20251207233436/https://wandererofperathia.com/">23:34:36 Dec 07, 2025</a>
-<a href="https://web.archive.org/web/20251208004835/https://wandererofperathia.com/">00:48:35 Dec 08, 2025</a>
-</details></pre>
+      <p>
+        <details>
+          <summary>archive of the historical versions of this page:</summary>
+          <ul>
+            <li>
+              <a href="/archive/2025-12-06-00-42.html"
+                >Dec 5, 2025, 7:42 PM EST</a
+              >
+              - first commit
+            </li>
+            <li>
+              <a href="/archive/2025-12-06-01-11.html"
+                >Dec 5, 2025, 8:11 PM EST</a
+              >
+              - add twitch embed
+            </li>
+            <li>
+              <a href="/archive/2025-12-06-06-55.html"
+                >Dec 6, 2025, 1:55 AM EST</a
+              >
+              - scorpcam
+            </li>
+            <li>
+              <a href="/archive/2025-12-06-09-31.html"
+                >Dec 6, 2025, 4:31 AM EST</a
+              >
+              - good night 1
+            </li>
+            <li>
+              <a href="/archive/2025-12-06-14-57.html"
+                >Dec 6, 2025, 9:57 AM EST</a
+              >
+              - new day 1
+            </li>
+            <li>
+              <a href="/archive/2025-12-06-18-56.html"
+                >Dec 6, 2025, 1:56 PM EST</a
+              >
+              - add the pledge
+            </li>
+            <li>
+              <a href="/archive/2025-12-07-10-38.html"
+                >Dec 7, 2025, 5:38 AM EST</a
+              >
+              - good night 2
+            </li>
+            <li>
+              <a href="/archive/2025-12-07-15-29.html"
+                >Dec 7, 2025, 10:29 AM EST</a
+              >
+              - new day 2
+            </li>
+            <li>
+              <a href="/archive/2025-12-07-16-18.html"
+                >Dec 7, 2025, 11:18 AM EST</a
+              >
+              - brave warrior
+            </li>
+            <li>
+              <a href="/archive/2025-12-07-23-32.html"
+                >Dec 7, 2025, 6:32 PM EST</a
+              >
+              - something
+            </li>
+            <li>
+              <a href="/archive/2025-12-08-00-27.html"
+                >Dec 7, 2025, 7:27 PM EST</a
+              >
+              - ...
+            </li>
+            <li>
+              <a href="/archive/2025-12-08-01-02.html"
+                >Dec 7, 2025, 8:02 PM EST</a
+              >
+              - missing persons
+            </li>
+          </ul>
+        </details>
+      </p>
     </main>
     <script src="https://player.twitch.tv/js/embed/v1.js"></script>
     <script type="text/javascript">
